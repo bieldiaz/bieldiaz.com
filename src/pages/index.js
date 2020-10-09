@@ -1,7 +1,11 @@
 import React from "react"
 import Layout from "../components/Layout"
 import "../css/main.css"
-
-export default function Home() {
-  return <Layout />
+import Hero from "../components/Hero"
+export default () => {
+  return (
+    <Layout>
+      <Hero />
+    </Layout>
+  )
 }
