@@ -1,0 +1,1 @@
+{"name":"hex2rgba","dist-tags":{"latest":"0.0.1"},"versions":{"0.0.1":{"name":"hex2rgba","version":"0.0.1","devDependencies":{"coveralls":"2.13.1","eslint":"3.19.0","istanbul":"0.4.5","mocha":"3.4.1"},"dist":{"shasum":"8701ba1c6ec02c204504158407c1c4b47a9336ed","tarball":"https://registry.npmjs.org/hex2rgba/-/hex2rgba-0.0.1.tgz"}}},"modified":"2018-03-21T01:33:19.446Z"}
