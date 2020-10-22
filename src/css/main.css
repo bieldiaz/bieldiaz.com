@@ -3,7 +3,7 @@
 Fonts
 ===============
 */
-/* @import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap"); */
+ @import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap"); 
 
 /*
 =============== 
@@ -898,7 +898,7 @@ Variables
     padding: 7rem 0;
   }
   .about-img {
-    margin-bottom: 2rem;
+    margin-bottom: rem;
     height: 25rem;
   }
   .about-text .section-title {
