@@ -6,7 +6,6 @@ import Services from "../components/Services"
 import Jobs from "../components/Jobs"
 import Projects from "../components/Projects"
 import { graphql } from "gatsby"
-
 export default ({ data }) => {
 
   const { allStrapiProjects: { nodes: projects },

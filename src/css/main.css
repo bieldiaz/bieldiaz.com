@@ -429,6 +429,7 @@ Variables
   }
   .hero-img {
     display: none;
+    width: 550px;
   }
   .hero-info h4 {
     color: var(--clr-grey-5);
@@ -842,8 +843,12 @@ Variables
   .footer h4 span {
     color: var(--clr-primary-5);
   }
+  .footer h4 a {
+    color: var(--clr-primary-5);
+  }
   .footer-links {
-    margin: 0 auto 1rem auto;
+    margin: auto;
+  
   }
   .footer .social-link {
     color: var(--clr-white);

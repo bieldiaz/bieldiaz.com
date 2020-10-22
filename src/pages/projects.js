@@ -4,16 +4,16 @@ import Projects from "../components/Projects"
 import { graphql } from "gatsby"
 
 const ProjectsPage = ({
-    data: { allStrapiProjects: { nodes: projects },
-    },
+  data: { allStrapiProjects: { nodes: projects },
+  },
 }) => {
-    return (
-        <Layout>
-            <section className="project-page">
-                <Projects projects={projects} title="all projects" />
-            </section>
-        </Layout>
-    )
+  return (
+    <Layout>
+      <section className="project-page">
+        <Projects projects={projects} title="all projects" />
+      </section>
+    </Layout>
+  )
 }
 export const query = graphql`
   {

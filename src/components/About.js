@@ -3,7 +3,7 @@ import NavBar from "./NavBar"
 import Footer from "../components/Footer"
 import SideBar from "./SideBar"
 
-const Layout = ({ children }) => {
+const About = () => {
     const [isOpen, setIsOpen] = React.useState(false);
     const toggleSideBar = () => {
         setIsOpen(!isOpen)
@@ -18,4 +18,4 @@ const Layout = ({ children }) => {
     )
 }
 
-export default Layout
+export default About
