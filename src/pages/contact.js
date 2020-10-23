@@ -1,9 +1,11 @@
-import React from "react"
+import React, { useEffect } from "react"
 import services from "../constants/services"
 import Layout from "../components/Layout"
 
 const Contact = () => {
-
+    useEffect(() => {
+        document.title = "CONTACT";
+    }, []);
     return (
         <Layout>
             <section className="contact-page">

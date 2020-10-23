@@ -7,7 +7,7 @@ import { FaAngleDoubleRight } from "react-icons/fa"
 
 const query = graphql`
   {
-    allStrapiJobs(sort: {fields: strapiId, order: DESC}) {
+    allStrapiJobs(sort: {fields: strapiId, order: ASC}) {
       nodes {
         strapiId
         company

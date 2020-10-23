@@ -1,22 +1,22 @@
 import React from "react"
-import { FaCode, FaSketch, FaAndroid } from "react-icons/fa"
+import { FaCode, FaSketch, FaPeopleCarry } from "react-icons/fa"
 export default [
     {
         id: 1,
         icon: <FaCode className="service-icon" />,
         title: "web development",
-        text: `I'm baby meditation tofu chillwave, distillery messenger bag thundercats chicharrones kale chips gochujang. Banh mi direct trade marfa salvia.`,
+        text: `A few years ago I discovered that I was passionate about web development and all the logic it has. I always try to improve and really want to learn progressively    .`,
     },
     {
         id: 2,
         icon: <FaSketch className="service-icon" />,
         title: "web design",
-        text: `I'm baby meditation tofu chillwave, distillery messenger bag thundercats chicharrones kale chips gochujang. Banh mi direct trade marfa salvia.`,
+        text: `I love the whole front end of a website as I have experience with it. My web pages that I have made always have a clean and minimalist design.`,
     },
     {
         id: 3,
-        icon: <FaAndroid className="service-icon" />,
-        title: "app design",
-        text: `I'm baby meditation tofu chillwave, distillery messenger bag thundercats chicharrones kale chips gochujang. Banh mi direct trade marfa salvia.`,
-    },
+        icon: <FaPeopleCarry className="service-icon" />,
+        title: "Team Work",
+        text: `I have the ability to work as a team to meet the needs of the tasks. Good teamwork is essential.`,
+    }
 ]

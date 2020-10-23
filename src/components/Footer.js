@@ -11,7 +11,7 @@ const Footer = () => {
                 <SocialLinks styleClass="footer-links"> </SocialLinks>
                 <h4>
                     copyright&copy;{new Date().getFullYear()}
-                    <a href="https://www.linkedin.com/in/biel-d%C3%ADaz-gadea/">Biel Díaz </a> all rights reserved
+                    <a href="https://www.linkedin.com/in/biel-d%C3%ADaz-gadea/"> Biel Díaz </a>all rights reserved
                 </h4>
 
             </div>

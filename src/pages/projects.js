@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect } from "react"
 import Layout from "../components/Layout"
 import Projects from "../components/Projects"
 import { graphql } from "gatsby"
@@ -7,6 +7,9 @@ const ProjectsPage = ({
   data: { allStrapiProjects: { nodes: projects },
   },
 }) => {
+  useEffect(() => {
+    document.title = "ALL PROJECTS";
+  }, []);
   return (
     <Layout>
       <section className="project-page">

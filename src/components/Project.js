@@ -16,15 +16,15 @@ const Project = ({ description, title, github, stack, url, image, index }) => {
                 </p>
                 <div className="project-stack">
                     {stack.map((item) => {
-                        return <span key={item.id}>{item.title}</span>
+                        return <span className="project-stack" key={item.id}>{item.title}</span>
                     })}
                 </div>
                 <div className="projects-links">
-                    <a href="{github}" target="_blank"><FaGithubSquare className="project-icon" /></a>
-                    <a href="{url}" target="_blank"><FaShareSquare className="project-icon" /></a>
+                    <a href={github} target="_blank"><FaGithubSquare className="project-icon" /></a>
+                    <a href={url} target="_blank"><FaShareSquare className="project-icon" /></a>
                 </div>
             </div>
-        </article>
+        </article >
     )
 }
 /*

@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect } from "react"
 import Layout from "../components/Layout"
 import "../css/main.css"
 import Hero from "../components/Hero"
@@ -6,12 +6,17 @@ import Services from "../components/Services"
 import Jobs from "../components/Jobs"
 import Projects from "../components/Projects"
 import { graphql } from "gatsby"
-export default ({ data }) => {
 
+export default ({ data }) => {
   const { allStrapiProjects: { nodes: projects },
   } = data
 
+  useEffect(() => {
+    document.title = "BIEL DEVELOPER";
+  }, []);
+
   return (
+
     <Layout>
       <Hero />
       <Services />

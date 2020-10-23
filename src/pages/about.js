@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect } from "react"
 import { graphql } from "gatsby"
 import Image from "gatsby-image"
 import Title from "../components/Title"
@@ -6,7 +6,9 @@ import Layout from "../components/Layout"
 
 const About = ({ data: { about: { nodes }, }, }) => {
   const { info, stack, title, image } = nodes[0];
-
+  useEffect(() => {
+    document.title = "ABOUT";
+  }, []);
   return (
     <Layout>
       <section className="about-page">
